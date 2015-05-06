@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB812A021AF9C70300E39AC7 /* MyDogA.m in Sources */ = {isa = PBXBuildFile; fileRef = DB812A011AF9C70300E39AC7 /* MyDogA.m */; };
+		DB812A081AF9C70400E39AC7 /* libMyDogA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8129FC1AF9C70300E39AC7 /* libMyDogA.a */; };
+		DB812A1C1AF9CFDC00E39AC7 /* MyDogA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB8129FF1AF9C70300E39AC7 /* MyDogA.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB812A091AF9C70400E39AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB8129F41AF9C70300E39AC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8129FB1AF9C70300E39AC7;
+			remoteInfo = MyDogA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB8129FA1AF9C70300E39AC7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DB812A1C1AF9CFDC00E39AC7 /* MyDogA.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB8129FC1AF9C70300E39AC7 /* libMyDogA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyDogA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8129FF1AF9C70300E39AC7 /* MyDogA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDogA.h; sourceTree = "<group>"; };
+		DB812A011AF9C70300E39AC7 /* MyDogA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDogA.m; sourceTree = "<group>"; };
+		DB812A071AF9C70400E39AC7 /* MyDogATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDogATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB812A0D1AF9C70400E39AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8129F91AF9C70300E39AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB812A041AF9C70400E39AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB812A081AF9C70400E39AC7 /* libMyDogA.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB8129F31AF9C70300E39AC7 = {
+			isa = PBXGroup;
+			children = (
+				DB8129FE1AF9C70300E39AC7 /* MyDogA */,
+				DB812A0B1AF9C70400E39AC7 /* MyDogATests */,
+				DB8129FD1AF9C70300E39AC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB8129FD1AF9C70300E39AC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8129FC1AF9C70300E39AC7 /* libMyDogA.a */,
+				DB812A071AF9C70400E39AC7 /* MyDogATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB8129FE1AF9C70300E39AC7 /* MyDogA */ = {
+			isa = PBXGroup;
+			children = (
+				DB8129FF1AF9C70300E39AC7 /* MyDogA.h */,
+				DB812A011AF9C70300E39AC7 /* MyDogA.m */,
+			);
+			path = MyDogA;
+			sourceTree = "<group>";
+		};
+		DB812A0B1AF9C70400E39AC7 /* MyDogATests */ = {
+			isa = PBXGroup;
+			children = (
+				DB812A0C1AF9C70400E39AC7 /* Supporting Files */,
+			);
+			path = MyDogATests;
+			sourceTree = "<group>";
+		};
+		DB812A0C1AF9C70400E39AC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB812A0D1AF9C70400E39AC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8129FB1AF9C70300E39AC7 /* MyDogA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB812A101AF9C70400E39AC7 /* Build configuration list for PBXNativeTarget "MyDogA" */;
+			buildPhases = (
+				DB8129F81AF9C70300E39AC7 /* Sources */,
+				DB8129F91AF9C70300E39AC7 /* Frameworks */,
+				DB8129FA1AF9C70300E39AC7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDogA;
+			productName = MyDogA;
+			productReference = DB8129FC1AF9C70300E39AC7 /* libMyDogA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB812A061AF9C70400E39AC7 /* MyDogATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB812A131AF9C70400E39AC7 /* Build configuration list for PBXNativeTarget "MyDogATests" */;
+			buildPhases = (
+				DB812A031AF9C70400E39AC7 /* Sources */,
+				DB812A041AF9C70400E39AC7 /* Frameworks */,
+				DB812A051AF9C70400E39AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB812A0A1AF9C70400E39AC7 /* PBXTargetDependency */,
+			);
+			name = MyDogATests;
+			productName = MyDogATests;
+			productReference = DB812A071AF9C70400E39AC7 /* MyDogATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB8129F41AF9C70300E39AC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = P;
+				TargetAttributes = {
+					DB8129FB1AF9C70300E39AC7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DB812A061AF9C70400E39AC7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DB8129F71AF9C70300E39AC7 /* Build configuration list for PBXProject "MyDogA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB8129F31AF9C70300E39AC7;
+			productRefGroup = DB8129FD1AF9C70300E39AC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8129FB1AF9C70300E39AC7 /* MyDogA */,
+				DB812A061AF9C70400E39AC7 /* MyDogATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB812A051AF9C70400E39AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8129F81AF9C70300E39AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB812A021AF9C70300E39AC7 /* MyDogA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB812A031AF9C70400E39AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB812A0A1AF9C70400E39AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8129FB1AF9C70300E39AC7 /* MyDogA */;
+			targetProxy = DB812A091AF9C70400E39AC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB812A0E1AF9C70400E39AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB812A0F1AF9C70400E39AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB812A111AF9C70400E39AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB812A121AF9C70400E39AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DB812A141AF9C70400E39AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyDogATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB812A151AF9C70400E39AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyDogATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8129F71AF9C70300E39AC7 /* Build configuration list for PBXProject "MyDogA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB812A0E1AF9C70400E39AC7 /* Debug */,
+				DB812A0F1AF9C70400E39AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB812A101AF9C70400E39AC7 /* Build configuration list for PBXNativeTarget "MyDogA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB812A111AF9C70400E39AC7 /* Debug */,
+				DB812A121AF9C70400E39AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB812A131AF9C70400E39AC7 /* Build configuration list for PBXNativeTarget "MyDogATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB812A141AF9C70400E39AC7 /* Debug */,
+				DB812A151AF9C70400E39AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB8129F41AF9C70300E39AC7 /* Project object */;
+}
