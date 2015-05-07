@@ -25,13 +25,13 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		DB8129FA1AF9C70300E39AC7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 8;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
 				DB812A1C1AF9CFDC00E39AC7 /* MyDogA.h in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
